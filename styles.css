@@ -1,0 +1,159 @@
+.topheader {
+  color: green;
+  position: fixed;
+  background-color: orange;
+  width: 100%;
+  display: flex;
+  align-items: Center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.Menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-horizontal li a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+  padding: 0.313rem 1.25rem;
+}
+
+.Menu-horizontal li a:hover {
+  color: red;
+}
+
+.Menu-horizontal li:hover .Menu-Vertical-Productos {
+  display: block;
+}
+
+.Menu-Vertical-Productos {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  width: 150px;
+  background-color: blanchedalmond;
+}
+
+.registrar-grupo {
+  padding: 90px 20px;
+  background-color: white;
+}
+
+.div-general-grupo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.div-rgrupo-texto {
+  flex: 1;
+}
+
+.div-rgrupo-texto p {
+  color: orange;
+  line-height: 1;
+  text-align: justify;
+}
+
+.div-rgrupo-img img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.registrar-grupo h2 {
+  color: orangered;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.div-exp-habito {
+  display: flex;
+}
+.exp-habito h2 {
+  background-color: orange;
+  padding: 10px 10px;
+}
+
+.div-exp-grupo-trabajo-texto {
+  padding-top: 50px;
+  padding-right: 160px;
+  padding-left: 20px;
+  gap: 30px;
+}
+
+.div-exp-habito-video iframe {
+  width: 100%;
+  max-width: 500px;
+}
+
+.Seccion-Formulario {
+  background-color: rgb(109, 109, 173);
+  padding: 40px;
+  padding-top: 100px;
+  border: 2px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Formulario {
+  justify-content: center;
+  background-color: orange;
+  padding: 30px;
+  border: 3px solid black;
+  width: 100%;
+  max-width: 500px;
+}
+
+.Campo {
+  background-color: rgb(109, 109, 173);
+  padding: 15px;
+  border: 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Formulario label {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.Formulario input[type="text"],
+.Formulario select {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box sizing: border-box;
+}
+
+.Lista-Check-Box,
+.Lista-ratio {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px;
+}
+
+.Formulario Button{
+  background-color  rgb(109, 109, 173);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Boton{
+  text-align: center;
+}

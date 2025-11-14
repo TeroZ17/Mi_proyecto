@@ -1,0 +1,167 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Mi Proyecto</title>
+      <link rel="stylesheet" href="styles.css" />
+      <link rel="stylesheet" href="Pie.css" />
+    </head>
+    <body>
+      <nav class="topheader">
+        <a href="" class "Img"> 
+          <Img height=45px width=45px src="img/logo.jpg" alt ="">
+        </a>
+        <ul class="Menu-horizontal">
+          <li><a href=""> Banca Virtual</a></li>
+          <li>
+            <a href="">Productos</a>
+
+            <ul class="Menu-Vertical-Productos">
+              <li><a href=""> Cuentas deposito</a></lis>
+              <li><a href=""> Prestamos creditos</a></li>
+              <li><a href=""> Tarjetas</a></li>
+              <li><a href=""> Servicios Adicionales</a></li>
+            </ul>
+          </li>
+          <li><a href="">Promociones</a></li>
+          <li><a href="">Contactanos</a></li>
+          <li><a href="">Ayuda</a></li>
+        </ul>
+      </nav>
+      <section class = "registrar-grupo">
+        <h2> Habitos</h2>
+        <div class = "div-general-grupo">
+          <div class = "div-rgrupo-texto">
+            <p>
+              Los buenos hábitos de salud pueden permitirle evitar una enfermedad y mejorar su calidad de vida. Las siguientes medidas le ayudarán a sentirse y vivir mejor. Hacer ejercicio en forma regular y controlar el peso.
+            </p>
+            <p> Lista de Pasos: </p>
+          </div>
+          <div class="div-rgrupo-img">
+            <img height="200px" src="Imagenes_a_usar/salud.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="exp-habito">
+        <h2> Exposicion de habito </h2>
+        <div class="div-exp-habito">
+          <div class="div-exp-grupo-trabajo-texto">
+            <p> A continuacion se mostrara un video </p>
+          </div>
+          <div class="div-exp-habito-video">
+            <iframe   
+            src="https://www.youtube.com/embed/tG1rQf_1pn4?si=0a7prkYjaDvYAs27" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+          </div>
+        </div>
+
+        <section class="Seccion-Formulario">
+          <div class="div-cont-formulario">
+            <form class="Formulario">
+              <h2> Complete todos los campos </h2>
+       
+                <div class="Campo"> 
+                  <label for="Nombre"> Nombres </label>
+                  <input type="text" id="tb-nombre" name="tb-nombre" placeholder="Ingrese sus nombres">
+                  <label for="Nombre"> Apellidos </label>
+                  <input type="text" id="tb-apellido" name="tb-apellido" placeholder="Ingrese sus apellidos">
+                </div>
+
+                <div class="Campo"> 
+                  <label for="Nombre"> Habito </label>
+                  <select id="Habito" name="Habito"> 
+                    <option value="Leer"> Leer </option>
+                    <option value="Tomar agua"> Tomar agua </option>
+                    <option value="Ejercitarse"> Ejercitarse </option>
+                  </select>
+
+                </div>
+
+                <div class="Campo"> 
+                  <label> Intereses </label>
+                  <ul class="Lista-Check-Box">
+                    <li> <label><input type="checkbox" name="Intereses" value="a"> Jugar </label></li>
+                    <li> <label><input type="checkbox" name="Intereses" value="b"> Beber </label></li>
+                    <li> <label><input type="checkbox" name="Intereses" value="c"> Escuchar Musica </label></li>
+                </div>
+
+                <div class="Campo"> 
+                  <label> Sexo </label>
+                  <ul class="Lista-ratio">
+                    <li> <label><input type="radio" name="Intereses" value="a"> Hombre </label></li>
+                    <li> <label><input type="radio" name="Intereses" value="b"> Mujer </label></li>
+                    <li> <label><input type="radio" name="Intereses" value="c"> Prefiero no decirlo </label></li>
+                </div> 
+                <section class="Boton">
+                <button type="Submit"> Enviar </button>
+                </section>
+            </form>
+        </section>
+
+        <section id="footer">
+          <footer class="footer">
+            <div class="footer-container">
+              <!-- Logo y nombre de sitio -->
+              <div class="footer-brand">
+                <img
+                  src="img/logo.jpg"
+                  alt="Logo"
+                  class="footer-logo"
+                />
+                <p>Kairo</p>
+                <small>© 2025 Todos los derechos reservados</small>
+              </div>
+    
+              <!-- Enlaces legales -->
+              <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="/Documentos/3.politica-privacidad.pdf"
+                  >Política de Privacidad</a
+                >
+                <!-- Dentro de href llama a un documento pdf con la poltica-->
+                <a href="#">Términos y Condiciones</a>
+                <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+                <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+              </div>
+    
+              <!-- Redes sociales con íconos personalizados -->
+              <div class="footer-social">
+                <h4>Síguenos</h4>
+                <a href="#"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                    alt="Facebook"
+                    class="social-icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                    alt="Instagram"
+                    class="social-icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                    alt="LinkedIn"
+                    class="social-icon"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                    alt="Twitter"
+                    class="social-icon"
+                /></a>
+              </div>
+            </div>
+          </footer>
+        </section>
+    </body>
+  </html>
