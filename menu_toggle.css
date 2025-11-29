@@ -32,4 +32,11 @@
   .Menu-Horizontal li {
     border-bottom: 1px solid #ccc; /* Líneas separadoras */
   }
+
+  .Menu-horizontal li a {
+    text-decoration: none;
+    color: blue;
+    display: block;
+    padding: 0.313rem 1.25rem;
+  }
 }
