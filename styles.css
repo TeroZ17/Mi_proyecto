@@ -9,25 +9,25 @@
   padding: 0 1.25rem;
 }
 
-.Menu-horizontal {
+.Menu-Horizontal {
   list-style: none;
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-.Menu-horizontal li a {
+.Menu-Horizontal li a {
   text-decoration: none;
   color: blue;
   display: block;
   padding: 0.313rem 1.25rem;
 }
 
-.Menu-horizontal li a:hover {
-  color: red;
+.Menu-Horizontal li a:hover {
+  color: black;
 }
 
-.Menu-horizontal li:hover .Menu-Vertical-Productos {
+.Menu-Horizontal li:hover .Menu-Vertical-Productos {
   display: block;
 }
 
